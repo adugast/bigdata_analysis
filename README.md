@@ -7,7 +7,7 @@
 ## Usage:
 
 ## How it works:
-<!-- language: lang-none -->
+```
 +-------------------------------+     +-------------------+     +-----------------------------------+  
 | 1) DATA INPUT:                |     | 2) DATA ANALYSIS: |     | 3) DATA OUTPUT:                   |  
 |                               |     |                   |     |                                   |  
@@ -16,7 +16,7 @@
 |- database (.sql, ...?)        |     |- ...              |     |- database (.sql, ...)             |  
 |                               |     |                   |     |                                   |  
 +-------------------------------+     +-------------------+     +-----------------------------------+  
-
+```
 ### input files:
 
 - data.json     : defines the datas to take as input
