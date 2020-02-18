@@ -7,15 +7,15 @@
 ## Usage:
 
 ## How it works:
-
-+-------------------------------+    +-------------------+    +----------------------------------+<br />
-| 1) DATA INPUT:                |    | 2) DATA ANALYSIS: |    | 3) DATA OUTPUT:                  |<br />
-|                               |    |                   |    |                                  |<br />
-|- excel files (.xls, .xlsx)    |    |- merging          |    |- excel files (.xls, .xlsx)       |<br />
-|- comma-separated values (.csv)|    |- filters          |    |- comma-separated values (.csv)   |<br />
-|- database (.sql, ...?)        |    |- ...              |    |- database (.sql, ...)            |<br />
-|                               |    |                   |    |                                  |<br />
-+-------------------------------+    +-------------------+    +----------------------------------+<br />
+<!-- language: lang-none -->
++-------------------------------+    +-------------------+    +----------------------------------+
+| 1) DATA INPUT:                |    | 2) DATA ANALYSIS: |    | 3) DATA OUTPUT:                  |
+|                               |    |                   |    |                                  |
+|- excel files (.xls, .xlsx)    |    |- merging          |    |- excel files (.xls, .xlsx)       |
+|- comma-separated values (.csv)|    |- filters          |    |- comma-separated values (.csv)   |
+|- database (.sql, ...?)        |    |- ...              |    |- database (.sql, ...)            |
+|                               |    |                   |    |                                  |
++-------------------------------+    +-------------------+    +----------------------------------+
 
 ### input files:
 
