@@ -10,10 +10,35 @@
 
 bigdata_analysis takes two json files as input file to set its configuration.
 
-Define following files and launch the program:
+- data.json     : defines the data to take as input
 
-- data.json     : defines the datas to take as input
-- filter.json   : defines the filter to apply on the data set
+- filter.json   : defines the filters to apply on the data set
+The key defines the column name and the value the regex used to parse the data.
+
+1) data.json example:
+```
+{
+   "data" : {
+       "path" : [
+           "samples/file_example_XLS_10.xls",
+           "samples/file_example_XLS_50.xls",
+           "samples/file_example_XLS_100.xls"
+       ]
+   }
+}
+```
+
+2) filter.json example
+```
+{
+    "filter": {
+        "First Name": "[LGP]",
+        "Country": "[F]",
+        "Gender": "Male",
+        "Age": 21
+    }
+}
+```
 
 ```
 +-------------------------------+     +-------------------+     +-----------------------------------+  
