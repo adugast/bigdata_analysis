@@ -8,11 +8,23 @@
 
 ## How it works:
 
-bigdata_analysis takes two json files as input file to set its configuration.
+```
++-------------------------------+     +-------------------+     +-----------------------------------+  
+| 1) DATA INPUT:                |     | 2) DATA ANALYSIS: |     | 3) DATA OUTPUT:                   |  
+|                               |     |                   |     |                                   |  
+|- excel files (.xls, .xlsx)    |     |- merging          |     |- excel files (.xls, .xlsx)        |  
+|- comma-separated values (.csv)|     |- filters          |     |- comma-separated values (.csv)    |  
+|- database (.sql, ...?)        |     |- ...              |     |- database (.sql, ...)             |  
+|- ...                          |     |                   |     |- ...                              |
+|                               |     |                   |     |                                   |  
++-------------------------------+     +-------------------+     +-----------------------------------+  
+```
+
+The program takes two json files as input file to set its configuration.
 
 - data.json     : defines the data to take as input
 
-- filter.json   : defines the filters to apply on the data set
+- filter.json   : defines the filters to apply on the data set    
 The key defines the column name and the value the regex used to parse the data.
 
 1) data.json example:
@@ -40,19 +52,12 @@ The key defines the column name and the value the regex used to parse the data.
 }
 ```
 
-```
-+-------------------------------+     +-------------------+     +-----------------------------------+  
-| 1) DATA INPUT:                |     | 2) DATA ANALYSIS: |     | 3) DATA OUTPUT:                   |  
-|                               |     |                   |     |                                   |  
-|- excel files (.xls, .xlsx)    |     |- merging          |     |- excel files (.xls, .xlsx)        |  
-|- comma-separated values (.csv)|     |- filters          |     |- comma-separated values (.csv)    |  
-|- database (.sql, ...?)        |     |- ...              |     |- database (.sql, ...)             |  
-|- ...                          |     |                   |     |- ...                              |
-|                               |     |                   |     |                                   |  
-+-------------------------------+     +-------------------+     +-----------------------------------+  
-```
-
 ## More info:
+
+* [Regular Expression Wikipedia](https://en.wikipedia.org/wiki/Regular_expression) - Introduction to regular expression
+* [RegEx Tuto](https://regexr.com/) - Learn, Build, & Test RegEx
+* [pandas](https://pandas.pydata.org/) - Python Data Analysis Library
+* [JSON](https://www.w3schools.com/js/js_json_intro.asp) - JSON Introduction
 
 ## License:
 
