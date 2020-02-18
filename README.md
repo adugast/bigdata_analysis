@@ -7,16 +7,16 @@
 ## Usage:
 
 ## How it works:
-<ul>
-<li>+-------------------------------+    +-------------------+    +----------------------------------+</li>
-<li>| 1) DATA INPUT:                |    | 2) DATA ANALYSIS: |    | 3) DATA OUTPUT:                  |</li>
-<li>|                               |    |                   |    |                                  |</li>
-<li>|- excel files (.xls, .xlsx)    |    |- merging          |    |- excel files (.xls, .xlsx)       |</li>
-<li>|- comma-separated values (.csv)|    |- filters          |    |- comma-separated values (.csv)   |</li>
-<li>|- database (.sql, ...?)        |    |- ...              |    |- database (.sql, ...)            |</li>
-<li>|                               |    |                   |    |                                  |</li>
-<li>+-------------------------------+    +-------------------+    +----------------------------------+</li>
-</ul>
+
++-------------------------------+    +-------------------+    +----------------------------------+<br />
+| 1) DATA INPUT:                |    | 2) DATA ANALYSIS: |    | 3) DATA OUTPUT:                  |<br />
+|                               |    |                   |    |                                  |<br />
+|- excel files (.xls, .xlsx)    |    |- merging          |    |- excel files (.xls, .xlsx)       |<br />
+|- comma-separated values (.csv)|    |- filters          |    |- comma-separated values (.csv)   |<br />
+|- database (.sql, ...?)        |    |- ...              |    |- database (.sql, ...)            |<br />
+|                               |    |                   |    |                                  |<br />
++-------------------------------+    +-------------------+    +----------------------------------+<br />
+
 ### input files:
 
 - data.json     : defines the datas to take as input
