@@ -55,9 +55,9 @@ The key defines the column name and the value the regex used to parse the data.
 ## More info:
 
 * [Regular Expression Wikipedia](https://en.wikipedia.org/wiki/Regular_expression) - Introduction to regular expression
-* [RegEx Tuto](https://regexr.com/) - Learn, Build, & Test RegEx
+* [RegEx Tutorial](https://regexr.com/) - Learn, Build, & Test RegEx
 * [pandas](https://pandas.pydata.org/) - Python Data Analysis Library
-* [JSON](https://www.w3schools.com/js/js_json_intro.asp) - JSON Introduction
+* [JSON w3school](https://www.w3schools.com/js/js_json_intro.asp) - JSON Introduction
 
 ## License:
 
