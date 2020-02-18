@@ -7,6 +7,14 @@
 ## Usage:
 
 ## How it works:
+
+bigdata_analysis takes two json files as input file to set its configuration.
+
+Define following files and launch the program:
+
+- data.json     : defines the datas to take as input
+- filter.json   : defines the filter to apply on the data set
+
 ```
 +-------------------------------+     +-------------------+     +-----------------------------------+  
 | 1) DATA INPUT:                |     | 2) DATA ANALYSIS: |     | 3) DATA OUTPUT:                   |  
@@ -14,13 +22,10 @@
 |- excel files (.xls, .xlsx)    |     |- merging          |     |- excel files (.xls, .xlsx)        |  
 |- comma-separated values (.csv)|     |- filters          |     |- comma-separated values (.csv)    |  
 |- database (.sql, ...?)        |     |- ...              |     |- database (.sql, ...)             |  
+|- ...                          |     |                   |     |- ...                              |
 |                               |     |                   |     |                                   |  
 +-------------------------------+     +-------------------+     +-----------------------------------+  
 ```
-### input files:
-
-- data.json     : defines the datas to take as input
-- filter.json   : defines the filter to apply on the files
 
 ## More info:
 
