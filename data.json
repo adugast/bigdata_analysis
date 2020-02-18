@@ -1,0 +1,9 @@
+{
+   "data" : {
+       "path" : [
+           "samples/file_example_XLS_10.xls",
+           "samples/file_example_XLS_50.xls",
+           "samples/file_example_XLS_100.xls"
+       ]
+   }
+}
