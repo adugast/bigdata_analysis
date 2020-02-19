@@ -52,6 +52,11 @@ The key defines the column name and the value the regex used to parse the data.
 }
 ```
 
+The filter.json file describes every filters that need to be applied
+
+The key should correspond to a column name available
+The value should describe a regex to will be used to filter the rows
+
 ## More info:
 
 * [Regular Expression Wikipedia](https://en.wikipedia.org/wiki/Regular_expression) - Introduction to regular expression
